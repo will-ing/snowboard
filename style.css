@@ -4,8 +4,9 @@ body {
 
 header {
     background-color: rgb(7, 53, 7);
-    padding-top: 50px;
+    padding-top: 5px;
     padding-left: 0px;
+    padding-bottom: 5px;
 
 }
 
@@ -13,7 +14,8 @@ header {
     position: relative;
     width: 200px;
     margin-top: -50px;
-  
+    height: 200px;
+    margin-bottom: -80px;  
 }
 
 h1 {
@@ -32,6 +34,9 @@ nav {
 .nav-one {
     display: inline-block;
     margin-right: 10%;
+    margin-bottom: 20px;
+    font-size: 20px;
+
 }
 
 main {
@@ -62,4 +67,15 @@ footer {
     background-color: rgb(109, 28, 28);
     position: absolute;
     width: 100%;
+}
+
+
+
+a:visited {
+    color: rgb(23, 243, 78);
+    text-decoration:none;
+}
+a:hover {
+    color: rgb(121, 121, 121);
+    size: 20px;
 }
