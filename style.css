@@ -10,6 +10,7 @@ header {
 
 }
 
+
 #snowb {
     position: relative;
     width: 200px;
@@ -27,9 +28,11 @@ h1 {
 
 nav {
     text-align: center;
-    
 }
 
+#favs {
+    color: white;
+}
 
 .nav-one {
     display: inline-block;
@@ -37,6 +40,15 @@ nav {
     margin-bottom: 20px;
     font-size: 20px;
 
+}
+
+#paint {
+    height: 20px;
+}
+
+#paint:hover {
+    size: 20px;
+    
 }
 
 main {
