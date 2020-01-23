@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(7, 53, 7);
+    padding-top: 50px;
+    padding-left: 0px;
+
+}
+
+#snowb {
+    position: relative;
+    width: 200px;
+    margin-top: -50px;
+  
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;  
+    margin: auto auto;  
+}
+
+nav {
+    text-align: center;
+    
+}
+
+
+.nav-one {
+    display: inline-block;
+    margin-right: 10%;
+}
+
+main {
+
+
+}
+
+article {
+    background-color: rgba(22, 22, 110, 0.5);
+    width: 40%;
+    color: white;
+    display: inline-block;
+    margin: 50px 2em;
+    
+}
+
+.imagetwo {
+    display: inline;
+}
+
+
+#aright {
+    float: right;
+    max-height: 500px;
+}
+
+footer {
+    background-color: rgb(109, 28, 28);
+    position: absolute;
+    width: 100%;
+}
