@@ -1,8 +1,13 @@
 
+   function txt(){
+    var mywindow = window.open("", "MsgWindow")
+    mywindow.document.write("<h3>That is a good one! check these out below!<h3>").submit();
+}
 
+var snowboard = prompt('what is your favorite snowboard?');
 
+alert(snowboard + ' is a great snowboard!');
 
-var color = prompt("what is your favorite color?", entry());
+var color = prompt(" what is your favorite color?");
 
-
-document.write('<div>' + "You are like" + color + "! Ready to learn how to Snow board?" + '<div/>');
+document.body.style.backgroundColor = color;
