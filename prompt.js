@@ -11,3 +11,13 @@ alert(snowboard + ' is a great snowboard!');
 var color = prompt(" what is your favorite color?");
 
 document.body.style.backgroundColor = color;
+
+confirm("DO you like snowboarding?")
+
+if( confirm === true){
+    alert("Thats awesome")
+}else{ 
+    alert("that is too bad.")
+}
+
+// document.write("")
